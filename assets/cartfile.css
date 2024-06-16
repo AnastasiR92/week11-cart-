@@ -1,0 +1,58 @@
+body {
+    height: 100%;
+    background: linear-gradient(rgb(123, 251, 255), 10%, pink);
+    background-repeat: no-repeat;
+}
+
+.title_main {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+
+#cartCards {
+    padding-top: 3vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 5vh;
+}
+
+.itemCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 15vw;
+    border: 1px solid black;
+}
+
+#itemImage {
+    width: 25%;
+    height: 80%;
+    padding-top: 2vh;
+    padding-left: 5vw;
+}
+
+#title_item{
+    padding-top: 2vh;
+}
+
+.priceItem {
+    padding-top: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: indigo;
+}
+
+#result {
+    padding-left: 15vw;
+}
+
+#addDiscount {
+    width: 25vw;
+    height: 5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+
+#resultText{
+    padding-bottom: 5vh;
+}

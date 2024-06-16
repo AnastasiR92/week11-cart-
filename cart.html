@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/cartfile.css" />
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <title>Корзина</title>
+  </head>
+  <body>
+    <h1 class="title_main">Корзина</h1>
+    <div id="cartCards">
+      <div class="itemCard">
+        <img
+          src="../week11/assets/pictures/honeycookie.png"
+          alt="воздушное печенье"
+          id="itemImage"
+        />
+        <div>
+          <h3 id="title_item">Воздушное печенье</h3>
+          <p>Количество: 1 уп.</p>
+        </div>
+        <div class="priceItem">100 руб.</div>
+      </div>
+      <div class="itemCard">
+        <img
+          src="../week11/assets/pictures/choco1.jpeg"
+          alt="шоколадное печенье"
+          id="itemImage"
+        />
+        <div>
+          <h3 id="title_item">Шоколадное печенье</h3>
+          <p>Количество: 1 уп.</p>
+        </div>
+        <div class="priceItem">150 руб.</div>
+      </div>
+      <div class="itemCard">
+        <img
+          src="../week11/assets/pictures/choco2.jpeg"
+          alt="печенье с кусочками шоколада"
+          id="itemImage"
+        />
+        <div>
+          <h3 id="title_item">Печенье с кусочками шоколада</h3>
+          <p>Количество: 1 уп.</p>
+        </div>
+        <div class="priceItem">150 руб.</div>
+      </div>
+      <div class="itemCard">
+        <img
+          src="../week11/assets/pictures/chocopie.jpg"
+          alt="chocopie"
+          id="itemImage"
+        />
+        <div>
+          <h3 id="title_item">Chocopie</h3>
+          <p>Количество: 1 уп.</p>
+        </div>
+        <div class="priceItem">120 руб.</div>
+      </div>
+    </div>
+    <div id="result">
+      <button id="addDiscount" onclick="applyDiscount()">
+        Использовать купон на 20%
+      </button>
+      <div id="resultText">
+        <h3>Итого:</h3>
+        <span id="totalprice">520 руб.</span>
+      </div>
+    </div>
+    <script src="cartfile.js"></script>
+  </body>
+</html>
